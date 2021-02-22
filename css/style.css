@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+    margin-top: 40px;
+    }
+
+.logo{
+    width: 20%;
+    float: left;
+}
+.nav{
+    width: 50%;
+    float: right;
+}
+.nav ul{list-style: none;
+        float: right;}
+.nav ul li{
+        float: left;
+        margin-left: 50px;
+        text-transform: uppercase;
+        color: #626262;
+        font-size: 16px;
+        font-family: 'Playfair Display', serif;
+        }
+
+.banner{
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+   }
+.banner img{
+    width: 100%;
+}
+
+.photdairy{
+    margin-left: 10%;
+    margin-right: 10%; 
+    width: 80%;
+    font-family: 'Ubuntu', sans-serif;   
+}
+    .photdairy h5{
+    margin-top: 80px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+   }
+
+    .photdairy h1{
+       margin-top: 25px;
+       color: #626262;
+       font-family: 'Playfair Display', serif;
+   }
+   .photdairy p{
+       margin-top: 40px;
+       color: #626262;
+       font-family: 'Playfair Display', serif;
+       font-size: 17px;
+        
+   }
+    .photdairy h6{
+    margin-top: 70px;
+    COLOR: #b4ad9e;
+    text-transform: uppercase
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 80px;
+    font-size: 14px;
+    font-weight: 500;
+    }
+
+.lifestyle{
+        width: 80%;
+        margin: 0 auto;
+        overflow: hidden;
+       
+}
+.lifestyle_left{
+width: 48%;
+float: left;
+
+}
+.lifestyle_left img{
+width: 100%;
+
+}
+.lifestyle_left h5{
+margin-top: 15px;
+color: #b4ad9e;
+font-family: 'Ubuntu', sans-serif;
+}
+.lifestyle_left h1{
+    margin-top: 25px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: -100px;
+    font-size: 35px;
+}
+.lifestyle_left p{
+    margin-top: 30px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.lifestyle_right{
+    width: 48%;
+    float: right;
+}
+.lifestyle_right img{
+    width: 100%;
+    
+    }
+    .lifestyle_right h5{
+    margin-top: 15px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .lifestyle_right h1{
+        margin-top: 25px;
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+    }
+    .lifestyle_right p{
+        margin-top: 30px;
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+        font-size: 17px;
+        margin-bottom: 50px;
+    }
+
+    .news{
+    background-color: #f0f0f0;
+    margin-bottom: 50px;
+    }
+    .news_content{
+        width: 40%;
+        margin: auto;
+        padding: 70px 0;
+        position: relative;
+    }
+    .news_content h1{
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .news_content input{
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid;
+        width: 80%;
+    }
+    .news_content input:focus{
+        outline: none;
+    }
+    .news_content input::placeholder{
+        color: #626262;
+        font-family: 'Playfair Display', serif;
+    }
+    .send{
+        position: absolute;
+        bottom: 70px;
+        left: 400px;
+    }
+
+    .load{
+        text-align: center;
+    }
+    .load button{
+        padding: 20px 30px;
+        font-size: 20px;
+        margin: 100px 0;
+    }
+
+    footer{
+        background-color: #f0f0f0;
+
+    }
+    .footer_content{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        padding: 30px 0;
+    }
+    .terms{
+        width: 30%;
+        float: left;
+        
+    }
+    .terms ul{
+        list-style: none;
+    }
+    .terms ul li{
+        float: left;
+        margin-left: 15px;
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+    }
+    .social{
+        width: 30%;
+        float: right;
+        
+    }
+    .social ul{
+        list-style: none;
+        float: right;
+    }
+    .social ul li{
+        float: left;
+        margin-left: 15px;
+        color: blue;
+        font-family: 'Playfair Display', serif;
+        font-size: 14px;
+   
